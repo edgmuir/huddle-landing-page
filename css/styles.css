@@ -16,7 +16,7 @@ body {
 
 .logo {
   margin-top: 15px;
-  margin-left: 30px;
+  margin-left: 90px;
 }
 
 .logo img {
@@ -30,13 +30,12 @@ body {
 }
 
 .bg-main-picture {
-  margin-left: 32px;
-  margin-right: 25px;
-  width: 45%;
+  margin-left: 90px;
+  margin-right: 45px;
+  width: 42%;
 }
 
 .bg-info {
-  margin-right: 15px;
   width: 42%;
 }
 
@@ -49,13 +48,29 @@ body {
 
 .bg-info p {
   color: #fff;
-  line-height: 1.6em;
+  line-height: 1.75em;
+  margin-top: 25px;
+}
+
+.btn {
+  background-color: #fff;
+  border: none;
+  color: hsl(257, 40%, 49%);
+  border-radius: 25px;
+  font-size: 14px;
+  margin-top: 24px;
+  padding: 14px 48px;
+}
+
+.btn:hover {
+  background-color: hsl(262, 71%, 76%);
+  color: #fff;
 }
 
 .attribution {
   font-size: 11px;
   text-align: center;
-  margin-top: 165px;
+  margin-top: 175px;
 }
 
 .attribution a {
