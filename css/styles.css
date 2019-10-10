@@ -9,6 +9,9 @@ body {
   background-image: url(../images/bg-desktop.svg);
   background-size: cover;
   background-repeat: no-repeat;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  width: 1440px;
 }
 
 .logo {
@@ -21,9 +24,38 @@ body {
   height: 160px;
 }
 
+.bg-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bg-main-picture {
+  margin-left: 32px;
+  margin-right: 25px;
+  width: 45%;
+}
+
+.bg-info {
+  margin-right: 15px;
+  width: 42%;
+}
+
+.bg-info h1 {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin-top: 52px;
+}
+
+.bg-info p {
+  color: #fff;
+  line-height: 1.6em;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin-top: 165px;
 }
 
 .attribution a {
