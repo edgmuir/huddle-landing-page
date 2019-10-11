@@ -70,9 +70,20 @@ body {
 .attribution {
   font-size: 11px;
   text-align: center;
-  margin-top: 175px;
+  margin-top: 215px;
 }
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.social-icons {
+  float: right;
+  margin-right: 145px;
+  margin-top: -50px;
+}
+
+.social-icons i {
+  padding: 0 40px;
+  margin-left: 10px;
 }
