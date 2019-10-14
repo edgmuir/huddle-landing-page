@@ -75,7 +75,7 @@ body {
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: #000;
 }
 
 .social-icons {
@@ -93,6 +93,7 @@ body {
 /* Extra Small Devices - Cell Phone  */
 @media only screen and (max-width: 600px) {
   body {
+    background-size: auto;
     width: 375px;
   }
 
@@ -145,8 +146,9 @@ body {
   .social-icons {
     margin-right: 70px;
   }
-}
 
-/* Medium Devices - Tablets */
-@media only screen and (min-width: 768px) {
+  .attribution {
+    margin-left: 75px;
+    padding-top: 25px;
+  }
 }
